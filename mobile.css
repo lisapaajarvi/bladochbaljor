@@ -22,7 +22,11 @@
 }
 .row {
     flex-direction: column;
-    height: 60rem;
+    height: auto;
+}
+
+.vegetables {
+    flex-direction: column-reverse;
 }
 
 .text-div {
@@ -30,19 +34,20 @@
     flex-direction: column;
     width: 80%;
     margin: auto;
-    height: 30rem;
-    padding: 0;
+    height: auto;
+    padding: 2rem 0;
 }
 
 .image-div {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
 }
 h2 {
     font-size: 30pt;
 }
 
-contact {
-    height: 30rem;
-    justify-content:space-around;
+.contact {
+    height: 20rem;
+    justify-content: space-around;
+    margin: 3rem 1rem;
 }
