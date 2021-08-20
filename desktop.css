@@ -82,6 +82,7 @@ body {
 .text-div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 30%;
     padding: 3rem;
 }
@@ -125,4 +126,13 @@ p {
 
 .flex {
     display: flex;
+}
+
+button {
+    height: 4rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    border: solid black 0.2rem;
+    border-radius: 1rem;
 }
