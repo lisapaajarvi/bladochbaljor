@@ -86,9 +86,19 @@ body {
 
 .contact {
     display: flex;
-    height: 20rem;
+    justify-content: space-between;
+    height: 10rem;
+    padding: 3rem;
 }
 
+.icons-div {
+    display: flex;
+    color: green
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
 h2 {
     font-family: 'Stalemate', cursive;
     font-size: 50pt;
@@ -102,4 +112,8 @@ h4 {
 
 p {
     font-family: 'Roboto', sans-serif; 
+}
+
+.flex {
+    display: flex;
 }
