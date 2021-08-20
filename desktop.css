@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    display: flex;   
+    align-items: center;
+    background-image: url(./images/bladbakgrund.jpg);
+    background-attachment: fixed;
+}
+
+.content-box {
+    display: flex;
+    width: 80%;
+    max-width: 60rem;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #f4ebe0;
+    border-radius: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    margin-left: 1rem;
+}
+
+.row {
+    display: flex;
+    height: 30rem;
+}
+
+.hero-image {
+    display: flex;
+    height: 30rem;
+    background-image: url(./images/lettuce.jpg);
+    background-size: cover;
+
+}
+.hero-text {
+    display: flex;
+    margin: auto;
+    color:#f4ebe0;
+    box-shadow: black;
+}
+.about-image {
+    background-image: url(./images/vegetables1.jpg);
+}
+
+.vegetables-image {
+    background-image: url(./images/carrots.jpg);
+}
+
+.subscribe-image {
+    background-image: url(./images/cabbage.jpg);
+}
+.image-wide {
+    display: flex;
+    height: 40rem;
+    background-image: url(./images/vegetables3.jpg);
+    background-size: cover;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 3rem;
+    text-align: center;
+}
+
+.image-div {
+    display:flex;
+    width: 70%;
+    background-size: cover;
+}
+
+.contact {
+    display: flex;
+    height: 20rem;
+}
+
+h2 {
+    font-family: 'Stalemate', cursive;
+    font-size: 50pt;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: large;
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
